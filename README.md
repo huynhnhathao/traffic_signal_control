@@ -22,4 +22,4 @@ My contribution in this work included but not limited to all the files I have ju
 
 If your operating system is Windows and you have set `git config --global core.autocrlf true` , when you clone this repo, git will automatically add CR to cfg/simulator.cfg. This will lead to the error in Linux of the docker container.
 
-So please change cfg/simulator.cfg from CRLF to LF after cloning this repo.
+So please change cfg/simulator.cfg from CRLF to LF
