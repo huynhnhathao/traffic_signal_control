@@ -6,7 +6,7 @@ This repository contains code to train a Double DQN RL agent for the task of tra
 ## To run the training code:
 1. Install docker, pull the docker image of the CBEngine: docker pull citybrainchallenge/cbengine:0.1.2
 2. Clone the starter-kit from the challenge: git clone https://github.com/CityBrainChallenge/KDDCup2021-CityBrainChallenge-starter-kit.git, this starter-kit contains the starting code the competition provide.
-3. Create a container from the previous image: docker run -it --name your_container_name --mount type=bind,source=Source\to\your\starter\kit,target=\starter-kit citybrainchallenge/cbengine:0.1.2 bash
+3. Create a container from the previous image: `docker run -it --name your_container_name --mount type=bind,source=Source\to\your\starter\kit,target=\starter-kit citybrainchallenge/cbengine:0.1.2 bash`
 4. To run the code in the container just created, run 3 commands: docker start your_container_name, docker exec -it you_container_name bash, cd starter-kit. Now you are on the starter-kit folder inside the container
 5. To run a python file inside the starter-kit folder: python3 filename.py
 
